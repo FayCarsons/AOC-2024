@@ -61,7 +61,7 @@ executable aoc2024
     main-is:          Main.hs
 
     -- Modules included in this executable, other than Main.
-    other-modules: DayOne.Main
+    other-modules: DayOne.Main, DayTwo.Main, DayThree.Main
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
@@ -72,6 +72,7 @@ executable aoc2024
                       , containers
                       , unordered-containers
                       , mtl
+                      , parsec
 
     -- Directories containing source files.
     hs-source-dirs:   app
