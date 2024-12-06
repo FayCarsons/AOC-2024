@@ -1,6 +1,6 @@
 module Main where
 
-import qualified DayThree.Main as DayThree
+import DayFive.Main (run)
 
 main :: IO ()
-main = DayThree.run
+main = run

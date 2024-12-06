@@ -61,6 +61,4 @@ run = do
   input <- parseInstructions <$> readFile "app/DayThree/input.txt"
   case input of
     Left e -> print e
-    Right instructions -> do
-      print instructions
-      print $ partTwo instructions
+    Right instructions -> print $ partTwo instructions
